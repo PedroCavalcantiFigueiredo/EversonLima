@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Everson Lima | Advocacia e Consultoria Jurídica</title>
-<meta name="description" content="Everson Lima – Advocacia e Consultoria Jurídica. OAB/MG 214.075. Atendimento personalizado, com discrição e confidencialidade.">
+<meta name="description" content="Everson Lima – Advocacia e Consultoria Jurídica em Pouso Alegre/MG. Direito Tributário, Trabalhista, Cível e demais áreas. OAB/MG 214.075. Atendimento personalizado, com discrição e confidencialidade.">
 <meta property="og:title" content="Everson Lima | Advocacia e Consultoria Jurídica">
 <meta property="og:description" content="Atendimento jurídico personalizado. OAB/MG 214.075.">
 <meta property="og:image" content="img/og.jpg">
@@ -70,21 +70,29 @@
   .placeholder{font-style:italic;color:rgba(42,63,84,.6)}
 
   .about blockquote{border-left:2px solid var(--navy);padding-left:22px;margin-bottom:22px}
-  .about .caps{text-align:center;font-family:var(--serif);font-size:12px;letter-spacing:.12em;color:rgba(42,63,84,.5);text-transform:uppercase}
+  .about-text{margin-bottom:18px;color:rgba(26,37,48,.8)}
+  .about .caps{margin-top:30px;text-align:center;font-family:var(--serif);font-size:12px;letter-spacing:.12em;color:rgba(42,63,84,.5);text-transform:uppercase}
 
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
-  .card{background:#fff;border:1px solid rgba(42,63,84,.1);padding:40px 34px;transition:transform .25s, box-shadow .25s}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  @media (max-width:1100px){.cards{grid-template-columns:repeat(2,1fr)}}
+  .card{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(42,63,84,.1);padding:36px 28px;transition:transform .25s, box-shadow .25s}
   .card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(26,37,48,.08)}
   .num{font-family:var(--serif);color:rgba(42,63,84,.4);font-size:20px}
   .card h3{font-family:var(--serif);font-weight:500;font-size:16px;letter-spacing:.06em;text-transform:uppercase;margin:18px 0 14px;color:var(--ink)}
-  .card p{font-size:14px;color:rgba(26,37,48,.7)}
-  .card .tag{display:block;margin-top:26px;padding-top:16px;border-top:1px solid rgba(42,63,84,.15);font-family:var(--serif);font-size:11px;letter-spacing:.12em;color:rgba(42,63,84,.5)}
+  .card p{font-size:14px;color:rgba(26,37,48,.7);margin-bottom:26px}
+  .card .tag{display:block;margin-top:auto;padding-top:16px;padding-top:16px;border-top:1px solid rgba(42,63,84,.15);font-family:var(--serif);font-size:11px;letter-spacing:.12em;color:rgba(42,63,84,.5)}
 
   .diffs{list-style:none}
   .diffs li{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding:24px 0;border-bottom:1px solid rgba(42,63,84,.12)}
   .diffs strong{font-family:var(--serif);font-weight:500;font-size:14px;letter-spacing:.06em;color:var(--ink)}
 
-  .method p{text-align:center;margin-bottom:24px}
+  .dtext{color:rgba(26,37,48,.75)}
+  .steps{list-style:none;margin-bottom:40px}
+  .steps li{display:grid;grid-template-columns:56px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid rgba(42,63,84,.12)}
+  .steps span{font-family:var(--serif);font-size:22px;color:rgba(41,52,68,.45)}
+  .steps strong{font-family:var(--serif);font-weight:500;font-size:14px;letter-spacing:.06em}
+  .steps p{font-size:15px;color:rgba(26,37,48,.75);margin-top:4px}
+  .social{display:inline-flex;align-items:center;gap:8px;margin-top:10px;color:var(--mist)}
   .seal{display:block;text-align:center;font-family:var(--serif);font-size:11px;letter-spacing:.14em;color:rgba(42,63,84,.6)}
 
   /* Contact */
@@ -166,8 +174,8 @@
         <h1><span class="sr">Everson Lima – Advocacia e Consultoria Jurídica</span>
           <span class="logo-full hero-logo" aria-hidden="true"></span></h1>
         <div class="rule"></div>
-        <p class="quote">"Conteúdo será inserido posteriormente."</p>
-        <p class="hero-text">Conteúdo será inserido posteriormente.</p>
+        <p class="quote">"Orientação jurídica clara, para decisões seguras."</p>
+        <p class="hero-text">Assessoria e acompanhamento jurídico para pessoas e empresas, com atendimento próximo, linguagem acessível e atenção a cada detalhe do seu caso.</p>
         <a href="#contato" class="btn">Fale comigo</a>
       </div>
       <div class="photo reveal">
@@ -187,8 +195,10 @@
         <div class="rule"></div>
       </div>
       <div class="about reveal">
-        <blockquote class="placeholder">"Conteúdo será inserido posteriormente."</blockquote>
-        <p class="caps">Conteúdo será inserido posteriormente.</p>
+        <blockquote>"Cada caso começa por ouvir com atenção. Só depois vem a estratégia."</blockquote>
+        <p class="about-text">O escritório Everson Lima Advocacia e Consultoria Jurídica foi estruturado para oferecer um atendimento direto e pessoal: o cliente conversa com o advogado responsável pelo seu caso, do primeiro contato à conclusão.</p>
+        <p class="about-text">O trabalho combina análise técnica cuidadosa, comunicação transparente sobre riscos e possibilidades, e acompanhamento constante de cada etapa. O objetivo é que o cliente compreenda sua situação jurídica e tome decisões com segurança.</p>
+        <p class="caps">OAB/MG 214.075 · Pouso Alegre – MG</p>
       </div>
     </div>
   </section>
@@ -204,20 +214,26 @@
       <div class="cards">
         <article class="card reveal">
           <div class="num">I</div>
-          <h3>Atuação Jurídica</h3>
-          <p>Conteúdo será inserido posteriormente.</p>
+          <h3>Direito Tributário</h3>
+          <p>Planejamento tributário, defesa em autuações fiscais, recuperação de tributos pagos indevidamente e atuação em processos administrativos e judiciais.</p>
           <span class="tag">ÁREA SOB CONSULTA</span>
         </article>
         <article class="card reveal">
           <div class="num">II</div>
-          <h3>Consultoria Estratégica</h3>
-          <p>Conteúdo será inserido posteriormente.</p>
+          <h3>Direito Trabalhista</h3>
+          <p>Assessoria a empregadores e empregados: consultoria preventiva, elaboração de documentos, negociações e atuação em reclamações trabalhistas.</p>
           <span class="tag">ÁREA SOB CONSULTA</span>
         </article>
         <article class="card reveal">
           <div class="num">III</div>
-          <h3>Resolução de Conflitos</h3>
-          <p>Conteúdo será inserido posteriormente.</p>
+          <h3>Direito Cível</h3>
+          <p>Contratos, responsabilidade civil, cobranças, indenizações, relações de consumo e questões patrimoniais, na esfera consultiva e contenciosa.</p>
+          <span class="tag">ÁREA SOB CONSULTA</span>
+        </article>
+        <article class="card reveal">
+          <div class="num">IV</div>
+          <h3>Demais Áreas</h3>
+          <p>Atuação abrangente nas demais áreas do Direito. Entre em contato para avaliarmos sua demanda e indicarmos o melhor caminho.</p>
           <span class="tag">ÁREA SOB CONSULTA</span>
         </article>
       </div>
@@ -233,9 +249,9 @@
         <div class="rule"></div>
       </div>
       <ul class="diffs reveal">
-        <li><strong>ATENDIMENTO PERSONALIZADO</strong><span class="placeholder">"Conteúdo será inserido posteriormente."</span></li>
-        <li><strong>EXCELÊNCIA TÉCNICA E RIGOR</strong><span class="placeholder">"Conteúdo será inserido posteriormente."</span></li>
-        <li><strong>DISCRIÇÃO E CONFIDENCIALIDADE</strong><span class="placeholder">"Conteúdo será inserido posteriormente."</span></li>
+        <li><strong>ATENDIMENTO PERSONALIZADO</strong><span class="dtext">Contato direto com o advogado responsável, com tempo para entender a realidade e os objetivos de cada cliente.</span></li>
+        <li><strong>EXCELÊNCIA TÉCNICA E RIGOR</strong><span class="dtext">Estudo aprofundado de cada caso, atualização constante e cuidado na elaboração de cada peça e parecer.</span></li>
+        <li><strong>DISCRIÇÃO E CONFIDENCIALIDADE</strong><span class="dtext">Sigilo profissional em todas as etapas, com tratamento responsável das informações, conforme o Código de Ética da OAB e a LGPD.</span></li>
       </ul>
     </div>
   </section>
@@ -248,7 +264,12 @@
         <h2>Método de Atendimento</h2>
         <div class="rule"></div>
       </div>
-      <p class="placeholder reveal">"Conteúdo será inserido posteriormente."</p>
+      <ol class="steps reveal">
+        <li><span>01</span><div><strong>PRIMEIRO CONTATO</strong><p>Você relata brevemente sua demanda pelo formulário, WhatsApp ou e-mail, e agendamos o atendimento.</p></div></li>
+        <li><span>02</span><div><strong>ANÁLISE DO CASO</strong><p>Em reunião presencial ou on-line, estudamos os fatos e os documentos para entender a situação por completo.</p></div></li>
+        <li><span>03</span><div><strong>ORIENTAÇÃO E ESTRATÉGIA</strong><p>Apresentamos os caminhos possíveis, com seus riscos e prazos, e definimos juntos a melhor estratégia.</p></div></li>
+        <li><span>04</span><div><strong>ACOMPANHAMENTO</strong><p>Conduzimos cada etapa e mantemos você informado sobre o andamento, com clareza e regularidade.</p></div></li>
+      </ol>
       <span class="seal">SINALIZADO SOB DIRETRIZES DA OAB</span>
     </div>
   </section>
@@ -269,6 +290,8 @@
           <div class="label">E-MAILS</div>
           <a href="mailto:eversonlima.adv@gmail.com">eversonlima.adv@gmail.com</a>
           <a href="mailto:eversonalexandre.lima@outlook.com">eversonalexandre.lima@outlook.com</a>
+          <div class="label">LINKEDIN</div>
+          <a href="https://www.linkedin.com/in/eversonalexandrelima/" target="_blank" rel="noopener">in/eversonalexandrelima</a>
         </div>
 
         <form id="form" class="reveal" novalidate>
@@ -317,8 +340,9 @@
       </div>
       <div>
         <h4>ENDEREÇO E MÍDIAS</h4>
-        <div class="muted"><em>Endereço: "Conteúdo será inserido posteriormente."</em></div>
-        <div class="muted"><em>Mídias Sociais: "Conteúdo será inserido posteriormente."</em></div>
+        <div>Pouso Alegre – MG</div>
+        <div class="muted">Atendimento presencial e on-line</div>
+        <a class="social" href="https://www.linkedin.com/in/eversonalexandrelima/" target="_blank" rel="noopener" aria-label="LinkedIn de Everson Lima"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
       </div>
     </div>
     <div class="fbottom">
