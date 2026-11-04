@@ -1,0 +1,25 @@
+SITE EVERSON LIMA - COMO PUBLICAR NA VERCEL
+
+1) FOTO: abra a foto do Emergent no navegador, salve como "foto.jpg"
+   e coloque nesta pasta, ao lado do index.html.
+   https://customer-assets.emergentagent.com/job_boutique-direito/artifacts/t2jtb2y6_Oretratista-069%20%281%29%20%282%29.jpeg
+
+2) FORMULARIO: crie a chave gratis em https://web3forms.com usando o e-mail
+   que vai receber as mensagens. Abra o index.html, procure
+   COLE_SUA_CHAVE_AQUI e cole a chave no lugar.
+   (Sem chave, o formulario abre o WhatsApp com a mensagem pronta.)
+
+3) PUBLICAR: entre em vercel.com > Add New > Project e envie esta pasta
+   (ou suba no GitHub e importe o repositorio). Nao precisa configurar nada.
+
+4) DOMINIO: na Vercel, Settings > Domains > adicione o dominio e copie
+   os registros DNS para o Registro.br.
+
+5) TEXTOS: os trechos "Conteudo sera inserido posteriormente" estao no
+   index.html; troque pelos textos definitivos quando o Everson enviar.
+
+PASTA img/
+   logo-clara.svg / logo-escura.svg ....... logo completa (fundo escuro / fundo claro)
+   monograma-claro.svg / -escuro.svg ...... so o "EL"
+   favicon.png, apple-touch-icon.png ...... icone da aba e do celular
+   og.jpg ................................. imagem que aparece ao compartilhar no WhatsApp
