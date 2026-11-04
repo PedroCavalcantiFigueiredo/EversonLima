@@ -210,7 +210,7 @@
         <blockquote>"Cada caso começa por ouvir com atenção. Só depois vem a estratégia."</blockquote>
         <p class="about-text">Everson Lima é advogado inscrito na OAB/MG sob o nº 214.075 e bacharel em Direito pela Faculdade de Direito do Sul de Minas (FDSM), em Pouso Alegre. Sua trajetória no Direito começou em 2017, como estagiário na Advocacia-Geral do Estado de Minas Gerais, e seguiu na advocacia privada, onde atuou como estagiário, assistente jurídico e advogado, acompanhando de perto demandas cíveis e trabalhistas.</p>
         <p class="about-text">Nos últimos anos, dedicou-se ao contencioso tributário e à recuperação judicial de ativos, atuando em casos de maior complexidade técnica. Essa vivência em diferentes frentes permite enxergar cada demanda de forma completa, considerando seus reflexos cíveis, trabalhistas e tributários.</p>
-        <p class="about-text">A formação é contínua: especialista em Direito Civil pela Escola Paulista de Direito, cursou especialização em Direito Processual Civil pela PUCRS e é pós-graduando em Direito Tributário pela PUC-SP. No escritório, esse preparo técnico se soma a um atendimento direto e pessoal: o cliente conversa com o advogado responsável pelo seu caso, do primeiro contato à conclusão.</p>
+        <p class="about-text">A formação é contínua: especialista em Direito Civil pela Escola Paulista de Direito, cursou especialização em Direito Processual Civil pela PUCRS e é pós-graduando em Direito Tributário pela PUC-SP. Hoje, advoga de forma autônoma: é ele mesmo quem atende cada cliente, estuda o caso e conduz todas as etapas, do primeiro contato à conclusão.</p>
 
         <div class="facts">
           <div><strong>2017</strong><span>Início da trajetória no Direito</span></div>
@@ -274,7 +274,7 @@
         <article class="card reveal">
           <div class="num">IV</div>
           <h3>Demais Áreas</h3>
-          <p>Atuação abrangente nas demais áreas do Direito. Entre em contato para avaliarmos sua demanda e indicarmos o melhor caminho.</p>
+          <p>Atuação abrangente nas demais áreas do Direito. Entre em contato para que eu avalie sua demanda e indique o melhor caminho.</p>
           <span class="tag">ÁREA SOB CONSULTA</span>
         </article>
       </div>
@@ -290,7 +290,7 @@
         <div class="rule"></div>
       </div>
       <ul class="diffs reveal">
-        <li><strong>ATENDIMENTO PERSONALIZADO</strong><span class="dtext">Contato direto com o advogado responsável, com tempo para entender a realidade e os objetivos de cada cliente.</span></li>
+        <li><strong>ATENDIMENTO PERSONALIZADO</strong><span class="dtext">Você fala diretamente comigo, sem intermediários, com tempo para entender a realidade e os objetivos de cada cliente.</span></li>
         <li><strong>EXCELÊNCIA TÉCNICA E RIGOR</strong><span class="dtext">Estudo aprofundado de cada caso, atualização constante e cuidado na elaboração de cada peça e parecer.</span></li>
         <li><strong>DISCRIÇÃO E CONFIDENCIALIDADE</strong><span class="dtext">Sigilo profissional em todas as etapas, com tratamento responsável das informações, conforme o Código de Ética da OAB e a LGPD.</span></li>
       </ul>
@@ -306,10 +306,10 @@
         <div class="rule"></div>
       </div>
       <ol class="steps reveal">
-        <li><span>01</span><div><strong>PRIMEIRO CONTATO</strong><p>Você relata brevemente sua demanda pelo formulário, WhatsApp ou e-mail, e agendamos o atendimento.</p></div></li>
-        <li><span>02</span><div><strong>ANÁLISE DO CASO</strong><p>Em reunião presencial ou on-line, estudamos os fatos e os documentos para entender a situação por completo.</p></div></li>
-        <li><span>03</span><div><strong>ORIENTAÇÃO E ESTRATÉGIA</strong><p>Apresentamos os caminhos possíveis, com seus riscos e prazos, e definimos juntos a melhor estratégia.</p></div></li>
-        <li><span>04</span><div><strong>ACOMPANHAMENTO</strong><p>Conduzimos cada etapa e mantemos você informado sobre o andamento, com clareza e regularidade.</p></div></li>
+        <li><span>01</span><div><strong>PRIMEIRO CONTATO</strong><p>Você relata brevemente sua demanda pelo formulário, WhatsApp ou e-mail, e eu agendo o atendimento.</p></div></li>
+        <li><span>02</span><div><strong>ANÁLISE DO CASO</strong><p>Em reunião presencial ou on-line, estudo os fatos e os documentos para entender a situação por completo.</p></div></li>
+        <li><span>03</span><div><strong>ORIENTAÇÃO E ESTRATÉGIA</strong><p>Apresento os caminhos possíveis, com seus riscos e prazos, e definimos juntos a melhor estratégia.</p></div></li>
+        <li><span>04</span><div><strong>ACOMPANHAMENTO</strong><p>Conduzo pessoalmente cada etapa e mantenho você informado sobre o andamento, com clareza e regularidade.</p></div></li>
       </ol>
       <span class="seal">SINALIZADO SOB DIRETRIZES DA OAB</span>
     </div>
@@ -427,7 +427,7 @@
     if (!WEB3FORMS_KEY || WEB3FORMS_KEY.includes('COLE_')) {
       const txt = `Olá, Dr. Everson. Meu nome é ${d.nome}.\nE-mail: ${d.email}\nTelefone: ${d.telefone || '-'}\n\n${d.mensagem}`;
       window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(txt)}`, '_blank');
-      show('Abrimos o WhatsApp com sua mensagem. Basta enviar.', true);
+      show('O WhatsApp foi aberto com sua mensagem. Basta enviar.', true);
       return;
     }
 
@@ -438,7 +438,7 @@
         body: JSON.stringify({ access_key: WEB3FORMS_KEY, ...d, name: d.nome, replyto: d.email })
       });
       const j = await r.json();
-      if (j.success) { form.reset(); show('Mensagem enviada com sucesso. Retornaremos em breve.', true); }
+      if (j.success) { form.reset(); show('Mensagem enviada com sucesso. Retorno em breve.', true); }
       else throw new Error(j.message);
     } catch (err) {
       show('Não foi possível enviar agora. Tente pelo WhatsApp (35) 99950-0904.', false);
