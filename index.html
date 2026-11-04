@@ -71,6 +71,18 @@
 
   .about blockquote{border-left:2px solid var(--navy);padding-left:22px;margin-bottom:22px}
   .about-text{margin-bottom:18px;color:rgba(26,37,48,.8)}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);margin:40px 0;border-top:1px solid rgba(42,63,84,.12);border-bottom:1px solid rgba(42,63,84,.12)}
+  .facts div{text-align:center;padding:24px 10px}
+  .facts div+div{border-left:1px solid rgba(42,63,84,.12)}
+  .facts strong{display:block;font-family:var(--serif);font-weight:400;font-size:28px;color:var(--navy);letter-spacing:.04em}
+  .facts span{font-size:13px;color:rgba(26,37,48,.6)}
+  .creds{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:10px}
+  .creds h3{font-family:var(--serif);font-weight:500;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(42,63,84,.2)}
+  .creds ul{list-style:none}
+  .creds li{padding:10px 0;border-bottom:1px solid rgba(42,63,84,.08)}
+  .creds li strong{display:block;font-weight:500;font-size:14px;color:var(--ink)}
+  .creds li span{font-size:13px;color:rgba(26,37,48,.6)}
+  @media (max-width:640px){.creds{grid-template-columns:1fr;gap:30px}.facts strong{font-size:22px}.facts span{font-size:12px}}
   .about .caps{margin-top:30px;text-align:center;font-family:var(--serif);font-size:12px;letter-spacing:.12em;color:rgba(42,63,84,.5);text-transform:uppercase}
 
   .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
@@ -191,14 +203,43 @@
     <div class="narrow">
       <div class="center head reveal">
         <div class="eyebrow">Apresentação Institucional</div>
-        <h2>Sobre o Escritório</h2>
+        <h2>Sobre o Advogado</h2>
         <div class="rule"></div>
       </div>
       <div class="about reveal">
         <blockquote>"Cada caso começa por ouvir com atenção. Só depois vem a estratégia."</blockquote>
-        <p class="about-text">O escritório Everson Lima Advocacia e Consultoria Jurídica foi estruturado para oferecer um atendimento direto e pessoal: o cliente conversa com o advogado responsável pelo seu caso, do primeiro contato à conclusão.</p>
-        <p class="about-text">O trabalho combina análise técnica cuidadosa, comunicação transparente sobre riscos e possibilidades, e acompanhamento constante de cada etapa. O objetivo é que o cliente compreenda sua situação jurídica e tome decisões com segurança.</p>
-        <p class="caps">OAB/MG 214.075 · Pouso Alegre – MG</p>
+        <p class="about-text">Everson Lima é advogado inscrito na OAB/MG sob o nº 214.075 e bacharel em Direito pela Faculdade de Direito do Sul de Minas (FDSM), em Pouso Alegre. Sua trajetória no Direito começou em 2017, como estagiário na Advocacia-Geral do Estado de Minas Gerais, e seguiu na advocacia privada, onde atuou como estagiário, assistente jurídico e advogado, acompanhando de perto demandas cíveis e trabalhistas.</p>
+        <p class="about-text">Nos últimos anos, dedicou-se ao contencioso tributário e à recuperação judicial de ativos, atuando em casos de maior complexidade técnica. Essa vivência em diferentes frentes permite enxergar cada demanda de forma completa, considerando seus reflexos cíveis, trabalhistas e tributários.</p>
+        <p class="about-text">A formação é contínua: especialista em Direito Civil pela Escola Paulista de Direito, cursou especialização em Direito Processual Civil pela PUCRS e é pós-graduando em Direito Tributário pela PUC-SP. No escritório, esse preparo técnico se soma a um atendimento direto e pessoal: o cliente conversa com o advogado responsável pelo seu caso, do primeiro contato à conclusão.</p>
+
+        <div class="facts">
+          <div><strong>2017</strong><span>Início da trajetória no Direito</span></div>
+          <div><strong>3</strong><span>Especializações (concluídas e em curso)</span></div>
+          <div><strong>OAB/MG</strong><span>Inscrição nº 214.075</span></div>
+        </div>
+
+        <div class="creds">
+          <div>
+            <h3>Formação acadêmica</h3>
+            <ul>
+              <li><strong>Especialização em Direito Tributário</strong><span>PUC-SP · em curso</span></li>
+              <li><strong>Especialização em Direito Processual Civil</strong><span>PUCRS · 2025–2026</span></li>
+              <li><strong>Especialização em Direito Civil</strong><span>Escola Paulista de Direito · 2022–2024</span></li>
+              <li><strong>Bacharelado em Direito</strong><span>Faculdade de Direito do Sul de Minas (FDSM) · 2017–2021</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Cursos complementares</h3>
+            <ul>
+              <li><strong>Lei Geral de Proteção de Dados</strong><span>ESA – OAB/MG</span></li>
+              <li><strong>Negociação e Formação do Contrato</strong><span>Fundação Getulio Vargas</span></li>
+              <li><strong>Direito Imobiliário</strong><span>Escola Paulista de Direito</span></li>
+              <li><strong>Atualização em Direito e Processo do Trabalho</strong><span>FDSM</span></li>
+              <li><strong>Polêmicas da Sucessão Legítima</strong><span>OAB SP</span></li>
+              <li><strong>Inglês Jurídico</strong><span>FDSM</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
